@@ -19,7 +19,9 @@ const addGalleryMarkup = createGalleryMarkup(galleryItems);
 divRef.innerHTML = addGalleryMarkup;
 
 const gallery = new SimpleLightbox(".gallery a", {
+  captionPosition: "bottom",
   captionsData: "alt",
+  captionDelay: 250,
 });
 
-console.log(galleryItem);
+console.log(galleryItems);

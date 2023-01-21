@@ -39,6 +39,7 @@ function onImageClick(evt) {
       instance.close();
     }
   });
+  divRef.removeEventListener;
 }
 
 function blockStandartAction(evt) {
